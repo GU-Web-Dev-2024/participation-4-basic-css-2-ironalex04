@@ -1,0 +1,27 @@
+/* External stylesheet for general styling */
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #2e8b57;
+    font-size: 36px;
+    margin: 20px 0;
+}
+
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #0be633;
+}
+
+p {
+    padding: 10px;
+    margin: 0;
+}

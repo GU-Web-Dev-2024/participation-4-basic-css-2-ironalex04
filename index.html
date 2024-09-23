@@ -3,23 +3,41 @@
 
 <head>
     <title>Fall Weather Forecast</title>
+
     <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="styles.css">
 
+    <!-- Embedded styles -->
+    <style>
+        .forecast {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px;
+        }
 
-    <!-- Embedded styles will go here -->
-
+        .day {
+            background-color: #fffacd;
+            border-radius: 8px;
+            padding: 10px;
+            font-size: 18px;
+            width: 150px;
+            text-align: center;
+        }
+    </style>
 </head>
 
 <body>
     <h1>Fall Weather Forecast</h1>
+
     <div class="forecast">
-        <p class="day">Monday: Sunny, 60°F</p>
-        <p class="day">Tuesday: Cloudy, 55°F</p>
-        <p class="day">Wednesday: Rainy, 50°F</p>
+        <!-- Inline styles for specific text -->
+        <p class="day" style="color: #ff4500;">Monday: Sunny, 60°F</p>
+        <p class="day" style="color: #ff4500;">Tuesday: Cloudy, 55°F</p>
+        <p class="day" style="color: #ff4500;">Wednesday: Rainy, 50°F</p>
     </div>
 
-    <!-- Example of where inline styles can be added -->
-    <footer style="text-align: center;">Last updated: September 22</footer>
+    <!-- Inline style applied directly to footer -->
+    <footer style="text-align: center; font-style: italic; color: #696969;">Last updated: September 22</footer>
 </body>
 
 </html>
